@@ -1,0 +1,13 @@
+2018-03-16 18:00:21 PM - root - DEBUG -logging_moudle:  debug
+2018-03-16 18:00:21 PM - root - INFO -logging_moudle:  info
+2018-03-16 18:00:21 PM - root - WARNING -logging_moudle:  warning
+2018-03-16 18:00:21 PM - root - ERROR -logging_moudle:  error
+2018-03-16 18:00:21 PM - root - CRITICAL -logging_moudle:  critical
+2018-03-16 18:00:21 PM - root - DEBUG -logging_moudle:  log
+2018-03-16 18:05:22 PM - root - DEBUG -logging_moudle:  debug
+2018-03-16 18:05:22 PM - root - INFO -logging_moudle:  info
+2018-03-16 18:05:22 PM - root - WARNING -logging_moudle:  warning
+2018-03-16 18:05:22 PM - root - ERROR -logging_moudle:  error
+2018-03-16 18:05:22 PM - root - CRITICAL -logging_moudle:  critical
+2018-03-16 18:05:22 PM - root - DEBUG -logging_moudle:  log
+2018-03-16 18:05:22 PM - root - CRITICAL -logging_moudle:  fatal
