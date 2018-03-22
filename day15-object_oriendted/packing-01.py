@@ -9,7 +9,7 @@ class Foo:
         self.name = "staryjie" # 如果多个对象需要封装的参数一样，只需要在__init__方法中定义一个就可以
         self.favor = bk
 
-obj1 = Foo("xx")
+obj1 = Foo("xx") # 类名+()会自动执行__init__()方法，即构造方法
 print(obj1.favor,obj1.name)
 obj2 = Foo("oo")
 print(obj2.favor,obj2.name)
