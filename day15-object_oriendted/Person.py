@@ -26,6 +26,7 @@ class Person:
         self.weight = self.weight - 1
         print("%s现在的体重为%s"%(self.name,self.weight))
 
+
 tom = Person("Tom","22",200)
 tom.eat()
 tom.run()
