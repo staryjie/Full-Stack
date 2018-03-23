@@ -34,9 +34,14 @@ class Provice:
         temp = "%s sb" % self.name
         return temp
 
-Provice.xxoo()
+# Provice.xxoo()
+#
+# obj = Provice("alex")
+# ret1 = obj.start()
+# ret2 = obj.end # 没有加括号()
+# print(ret1,ret2)
 
 obj = Provice("alex")
-ret1 = obj.start()
-ret2 = obj.end # 没有加括号()
-print(ret1,ret2)
+print(obj.name)
+obj.name = "123"
+print(obj.name)
