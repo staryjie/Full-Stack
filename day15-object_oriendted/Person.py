@@ -1,5 +1,6 @@
 #!/usr/local/bin/python3
 # -*- coding:utf-8 -*-
+import pickle
 
 class Person:
 
@@ -26,9 +27,14 @@ class Person:
         self.weight = self.weight - 1
         print("%s现在的体重为%s"%(self.name,self.weight))
 
+ret = pickle.load(open('cundang.log',"rb"))
+if ret:
+    print(ret.weight)
+else:
+    tom = Person("Tom","22",200)
+    tom.eat()
+    tom.run()
+    tom.jianshen()
+    tom.zhaoduixiang()
 
-tom = Person("Tom","22",200)
-tom.eat()
-tom.run()
-tom.jianshen()
-tom.zhaoduixiang()
+    pickle.dump(open('cundang.log',"wb"))
