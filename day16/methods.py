@@ -24,4 +24,19 @@ class Provice:
     def xxoo(cls):
         print("xxoo",cls)
 
+    # 特性，将方法伪造成字段
+    def start(self):
+        temp = "%s sb"% self.name
+        return temp
+
+    @property #把原来的方法设置成直接通过字段的方式访问，不能加参数
+    def end(self):
+        temp = "%s sb" % self.name
+        return temp
+
 Provice.xxoo()
+
+obj = Provice("alex")
+ret1 = obj.start()
+ret2 = obj.end # 没有加括号()
+print(ret1,ret2)
