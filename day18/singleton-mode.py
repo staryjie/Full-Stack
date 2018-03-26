@@ -58,3 +58,7 @@ for i in range(10):
     print("去连接池",pool,"中获取一个连接...")
     conn = pool.get_connection()
     print(conn)
+
+# 1、单例模式  ===》 只有一个实例
+# 2、通过静态方法+静态字段实现
+# 3、所有实例中封装的数据相同时，使用单例模式
