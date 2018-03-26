@@ -157,3 +157,20 @@ class Foo:
 
 obj = Foo("staryjie")
 print(obj)
+
+
+# 自定义异常
+
+class JieException(Exception):
+
+    def __init__(self, msg):
+        self.message = msg
+
+    def __str__(self):
+        return self.message
+
+
+try:
+    raise JieException('我的异常')
+except JieException as e:
+    print(e)
