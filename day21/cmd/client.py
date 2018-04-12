@@ -33,7 +33,6 @@ while True:
         result_length = int(str(basic_info_bytes,encoding='utf-8').split('|')[1])
 
         # print(result_length)
-
         # 根据确认字段，开始接收命令执行结果
         # 已接收的内容的长度
         has_received_len = 0
